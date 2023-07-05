@@ -4,7 +4,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,400;1,700&display=swap"
+    rel="stylesheet">
   <title>Document</title>
+  <style>
+    body {
+      font-family: 'Merriweather', serif;
+      font-style: italic;
+    }
+
+    h1 {
+      font-style: normal;
+      color: blue;
+    }
+
+    .menuo {
+      width: 250px;
+      text-align: center;
+
+    }
+
+    h4 {
+      color: rgb(20, 20, 21);
+      font-size: large;
+    }
+
+    h5 {
+      color: blue;
+    }
+
+    .calender {
+      display: flex;
+      justify-content: center;
+      border: 5px solid black;
+      width: 1015px;
+      margin-left: 450px;
+      background-color: rgb(169, 167, 107);
+
+    }
+
+    .calender td {
+      font-size: 14px;
+      font-size: small;
+    }
+
+    .under {
+      margin-left: 450px;
+      width: 1100px;
+      font-size: 14px;
+      font-family: Merriweather;
+      font-style: normal;
+    }
+  </style>
+
+
+
 </head>
 
 <body>
@@ -14,19 +70,19 @@
       www.wiki-calendar.com
     </h5>
   </header>
-  <section style="display: flex;margin-left: 450px;">
+  <section class="calender">
 
 
     <table style="width: 1000px;border: 2px solid black;border-spacing: 0;">
       <tbody>
         <tr>
           <td style="width: 200;height: 160px;border-right: 2px solid black;border-bottom: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">JANUARY</h4>
+                    <h4>JANUARY</h4>
                   </th>
                 </tr>
               </Thead>
@@ -103,12 +159,12 @@
 
           </td>
           <td style="width: 200;border-right: 2px solid black;border-bottom: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">FEBRUARY</h4>
+                    <h4>FEBRUARY</h4>
                   </th>
                 </tr>
               </Thead>
@@ -182,12 +238,12 @@
 
           </td>
           <td style="width: 200;border-right: 2px solid black;border-bottom: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">MARCH</h4>
+                    <h4>MARCH</h4>
                   </th>
                 </tr>
               </Thead>
@@ -261,12 +317,12 @@
           </td>
 
           <td style=" border-bottom: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">APRIL</h4>
+                    <h4>APRIL</h4>
                   </th>
                 </tr>
               </Thead>
@@ -346,12 +402,12 @@
 
         <tr>
           <td style="width: 200;height: 200px;border-right: 2px solid black;border-bottom: 2px solid black">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">MAY</h4>
+                    <h4>MAY</h4>
                   </th>
                 </tr>
               </Thead>
@@ -425,12 +481,12 @@
 
           </td>
           <td style="width: 200;border-right: 2px solid black;border-bottom: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">JUNE</h4>
+                    <h4>JUNE</h4>
                   </th>
                 </tr>
               </Thead>
@@ -504,12 +560,12 @@
 
           </td>
           <td style="width: 200;border-right: 2px solid black;border-bottom: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">JULY</h4>
+                    <h4>JULY</h4>
                   </th>
                 </tr>
               </Thead>
@@ -586,12 +642,12 @@
 
           </td>
           <td style="width: 200px;border-bottom: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">AUGUST</h4>
+                    <h4>AUGUST</h4>
                   </th>
                 </tr>
               </Thead>
@@ -667,12 +723,12 @@
         </tr>
         <tr>
           <td style="width: 200;height: 180px;border-right: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">SEPTEMBER</h4>
+                    <h4>SEPTEMBER</h4>
                   </th>
                 </tr>
               </Thead>
@@ -746,12 +802,12 @@
 
           </td>
           <td style="width: 200;border-right: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">OCTOBER</h4>
+                    <h4>OCTOBER</h4>
                   </th>
                 </tr>
               </Thead>
@@ -825,12 +881,12 @@
 
           </td>
           <td style="width: 200;border-right: 2px solid black;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">NOVEMBER</h4>
+                    <h4>NOVEMBER</h4>
                   </th>
                 </tr>
               </Thead>
@@ -904,12 +960,12 @@
 
           </td>
           <td style="vertical-align: middlm;">
-            <table style="width: 250px;">
+            <table class="menuo">
               <Thead>
                 <tr>
 
                   <th colspan="7">
-                    <h4 style="margin-left: 80px;">DECEMBER</h4>
+                    <h4>DECEMBER</h4>
                   </th>
                 </tr>
               </Thead>
@@ -1002,11 +1058,11 @@
 
   </section>
 
-  <table style="margin-left: 450px;width: 1100px;">
+  <table class="under">
     <thead>
       <tr>
         <th colspan="4">
-          <h4>HOLYDAY AND OBSERVANCES:
+          <h4 style="color: black;">HOLYDAY AND OBSERVANCES:
 
           </h4>
         </th>
